@@ -2,8 +2,13 @@
 
 version: 0.2
 
+
+
+
 phases:
   install:
+    runtime-versions:
+      python: 2.7
     commands:
       - echo "[+] Scanning for security vulnerability within dependencies"
       # - pipenv check (if pipenv is installed and a Pipfile is in place)
