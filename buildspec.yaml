@@ -18,6 +18,8 @@ phases:
       - pip install pytest requests
       - echo "[+] Running tests..."
       - python -m pytest tests/ -v
+      - pwd
+      - ls -la
   build:
     commands:
       - echo "[+] Installing dependencies...."
